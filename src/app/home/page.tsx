@@ -1,25 +1,16 @@
 import { Icons, Wrapper } from "@/components";
-import { Button, buttonVariants } from "@/components/ui/button";
-import { bentoCards, features, perks, pricingCards, reviews, } from "@/constants";
-import { ArrowRight, ChevronRight, Zap, Check, CheckCircle2 } from "lucide-react";
-import Image from "next/image";
-import React from 'react'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-import SectionBadge from "@/components/ui/section-badge";
-// import { Globe } from "@/components/ui/globe";
-import dynamic from "next/dynamic";
 import { BorderBeam } from "@/components/ui/border-beam";
-import Marquee from "@/components/ui/marquee";
-import { LampContainer } from "@/components/ui/lamp";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-
-
-const World = dynamic(() => import("@/components/ui/globe").then((m) => m.World), {
-    ssr: false,
-});
+import { LampContainer } from "@/components/ui/lamp";
+import Marquee from "@/components/ui/marquee";
+import SectionBadge from "@/components/ui/section-badge";
+import { features, perks, pricingCards, reviews } from "@/constants";
+import { cn } from "@/lib/utils";
+import { ArrowRight, ChevronRight, Zap } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 const HomePage = () => {
 
@@ -55,12 +46,6 @@ const HomePage = () => {
                         <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
                             Zero code, maximum speed. Make professional sites easy, fast and fun while delivering best-in-class SEO, performance.
                         </p>
-                        {/* <h1 className="text-4xl md:text-6xl lg:text-7xl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-700 text-transparent">
-                            Step Into the Future of{" "}
-                        </h1>
-                        <span className="bg-clip-text bg-gradient-to-b from-gray-50 to-gray-700 text-transparent text-4xl md:text-6xl lg:text-7xl md:!leading-snug font-semibold">
-                            Website Building
-                        </span> */}
                         <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                             <Link href="/agency" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                 <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
@@ -75,16 +60,13 @@ const HomePage = () => {
                     </div>
 
                     <div className="relative flex items-center py-10 md:py-20 w-full">
-                        {/* <div className="absolute top-0 md:top-20 w-full md:w-4/5 h-1/4 blur-[10rem] rounded-l-full bg-primary left-1/2 -translate-x-1/2 -z-10"></div> */}
                         <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
                         <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
                             <Image
-                                src="/assets/preview.png"
+                                src="/assets/dashboard.svg"
                                 alt="banner image"
-                                width={3456}
-                                height={1976}
-                                // width={1200}
-                                // height={1200}
+                                width={1200}
+                                height={1200}
                                 quality={100}
                                 className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
                             />

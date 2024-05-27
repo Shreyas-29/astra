@@ -20,7 +20,7 @@ export const SITE_CONFIG: Metadata = {
         description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
         images: [
             {
-                url: "/og-image.png",
+                url: "/assets/og-image.png",
             }
         ]
     },
@@ -31,7 +31,7 @@ export const SITE_CONFIG: Metadata = {
         description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
         images: [
             {
-                url: "/og-image.png",
+                url: "/assets/og-image.png",
             }
         ]
     },
