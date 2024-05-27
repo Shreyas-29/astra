@@ -8,7 +8,7 @@ import Marquee from "@/components/ui/marquee";
 import SectionBadge from "@/components/ui/section-badge";
 import { features, perks, pricingCards, reviews } from "@/constants";
 import { cn } from "@/lib/utils";
-import { ArrowRight, ChevronRight, Zap } from "lucide-react";
+import { ArrowRight, ChevronRight, UserIcon, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -221,13 +221,7 @@ const HomePage = () => {
                                     )}
                                 >
                                     <div className="flex flex-row items-center gap-2">
-                                        <Image
-                                            className="rounded-full"
-                                            alt=""
-                                            width="32"
-                                            height="32"
-                                            src={review.img}
-                                        />
+                                        <UserIcon className="w-6 h-6" />
                                         <div className="flex flex-col">
                                             <figcaption className="text-sm font-medium">
                                                 {review.name}
@@ -249,13 +243,8 @@ const HomePage = () => {
                                     )}
                                 >
                                     <div className="flex flex-row items-center gap-2">
-                                        <Image
-                                            className="rounded-full"
-                                            alt=""
-                                            width="32"
-                                            height="32"
-                                            src={review.img}
-                                        />                                        <div className="flex flex-col">
+                                        <UserIcon className="w-6 h-6" />
+                                        <div className="flex flex-col">
                                             <figcaption className="text-sm font-medium">
                                                 {review.name}
                                             </figcaption>
