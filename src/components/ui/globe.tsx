@@ -91,12 +91,12 @@ export function Globe({ globeConfig, data }: WorldProps) {
         ...globeConfig,
     };
 
-    useEffect(() => {
-        if (globeRef.current) {
-            _buildData();
-            _buildMaterial();
-        }
-    }, [globeRef.current]);
+    // useEffect(() => {
+    //     if (globeRef.current) {
+    //         _buildData();
+    //         _buildMaterial();
+    //     }
+    // }, [globeRef.current!]);
 
     const _buildMaterial = () => {
         if (!globeRef.current) return;

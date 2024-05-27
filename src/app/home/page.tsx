@@ -206,7 +206,7 @@ const HomePage = () => {
                         What people are saying
                     </h2>
                     <p className="text-muted-foreground mt-6">
-                        See how Astra empowers businesses of all sizes. Here's what real people are saying on Twitter
+                        See how Astra empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
                     </p>
                 </div>
                 <div className="py-10 md:py-20 w-full">
@@ -221,7 +221,13 @@ const HomePage = () => {
                                     )}
                                 >
                                     <div className="flex flex-row items-center gap-2">
-                                        <img className="rounded-full" width="32" height="32" alt="" src={review.img} />
+                                        <Image
+                                            className="rounded-full"
+                                            alt=""
+                                            width="32"
+                                            height="32"
+                                            src={review.img}
+                                        />
                                         <div className="flex flex-col">
                                             <figcaption className="text-sm font-medium">
                                                 {review.name}
@@ -243,8 +249,13 @@ const HomePage = () => {
                                     )}
                                 >
                                     <div className="flex flex-row items-center gap-2">
-                                        <img className="rounded-full" width="32" height="32" alt="" src={review.img} />
-                                        <div className="flex flex-col">
+                                        <Image
+                                            className="rounded-full"
+                                            alt=""
+                                            width="32"
+                                            height="32"
+                                            src={review.img}
+                                        />                                        <div className="flex flex-col">
                                             <figcaption className="text-sm font-medium">
                                                 {review.name}
                                             </figcaption>
