@@ -41,7 +41,6 @@
     "@radix-ui/react-tooltip": "^1.0.7",
     "@react-three/drei": "^9.105.6",
     "@react-three/fiber": "^8.16.6",
-    "@uploadthing/react": "^6.5.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
