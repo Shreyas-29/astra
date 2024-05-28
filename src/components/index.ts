@@ -8,15 +8,12 @@ import Icons from "./global/icons";
 import ModeToggle from "./global/mode-toggle";
 import Wrapper from "./global/wrapper";
 
-import AgencyDetails from "./forms/agency-details";
-
 export {
     Providers,
     ThemeProvider,
     Navbar,
     ModeToggle,
     Icons,
-    AgencyDetails,
     Wrapper,
     Footer,
 }
