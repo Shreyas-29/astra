@@ -1,5 +1,4 @@
 import { Icons } from "@/components";
-import { Zap, Palette, TextSearch, MonitorSmartphone, Store, ServerCog } from "lucide-react";
 
 export const perks = [
     {
