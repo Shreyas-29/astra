@@ -115,7 +115,7 @@ const Icons: IconType = {
     feature: (props: LucideProps) => (
         <svg {...props} width="328" height="401" viewBox="0 0 328 401" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="131" y="56" width="60" height="315" fill="url(#paint0_linear_50_493)" />
-            <g clip-path="url(#clip0_50_493)">
+            <g clipPath="url(#clip0_50_493)">
                 <rect x="131" y="341" width="60" height="60" rx="10" fill="#004BE0" />
                 <rect x="174.5" y="333.5" width="24" height="24" rx="4.5" fill="#006EFF" stroke="#3B82F6" />
                 <rect x="123.5" y="333.5" width="24" height="24" rx="4.5" fill="#006EFF" stroke="#3B82F6" />
@@ -127,7 +127,7 @@ const Icons: IconType = {
             </g>
             <rect x="131.5" y="341.5" width="59" height="59" rx="9.5" stroke="url(#paint1_linear_50_493)" strokeOpacity="0.95" />
             <rect x="250" y="9" width="50" height="315" fill="url(#paint2_linear_50_493)" />
-            <g clip-path="url(#clip1_50_493)">
+            <g clipPath="url(#clip1_50_493)">
                 <rect x="250" y="299" width="50" height="50" rx="8" fill="#004BE0" />
                 <rect x="287.5" y="288.5" width="24" height="24" rx="3.5" fill="#006EFF" stroke="#3B82F6" />
                 <rect x="238.5" y="288.5" width="24" height="24" rx="3.5" fill="#006EFF" stroke="#3B82F6" />
@@ -139,7 +139,7 @@ const Icons: IconType = {
             </g>
             <rect x="250.5" y="299.5" width="49" height="49" rx="7.5" stroke="url(#paint3_linear_50_493)" strokeOpacity="0.95" />
             <rect x="31" width="40" height="315" fill="url(#paint4_linear_50_493)" />
-            <g clip-path="url(#clip2_50_493)">
+            <g clipPath="url(#clip2_50_493)">
                 <rect x="31" y="295" width="40" height="40" rx="6" fill="#004BE0" />
                 <rect x="60.5" y="282.5" width="24" height="24" rx="2.5" fill="#006EFF" stroke="#3B82F6" />
                 <rect x="17.5" y="282.5" width="24" height="24" rx="2.5" fill="#006EFF" stroke="#3B82F6" />
@@ -203,48 +203,48 @@ const Icons: IconType = {
                     <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_50_493" />
                 </filter>
                 <linearGradient id="paint0_linear_50_493" x1="161" y1="56" x2="161" y2="371" gradientUnits="userSpaceOnUse">
-                    <stop stop-opacity="0" />
-                    <stop offset="1" stop-color="#006EFF" />
+                    <stop stopOpacity="0" />
+                    <stop offset="1" stopColor="#006EFF" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_50_493" x1="161" y1="341" x2="161" y2="401" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" stop-opacity="0.5" />
-                    <stop offset="1" stop-color="#004BE0" stop-opacity="0.5" />
+                    <stop stopColor="white" stopOpacity="0.5" />
+                    <stop offset="1" stopColor="#004BE0" stopOpacity="0.5" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_50_493" x1="275" y1="9" x2="275" y2="324" gradientUnits="userSpaceOnUse">
-                    <stop stop-opacity="0" />
-                    <stop offset="1" stop-color="#006EFF" />
+                    <stop stopOpacity="0" />
+                    <stop offset="1" stopColor="#006EFF" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_50_493" x1="275" y1="299" x2="275" y2="349" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" stop-opacity="0.5" />
-                    <stop offset="1" stop-color="#004BE0" stop-opacity="0.5" />
+                    <stop stopColor="white" stopOpacity="0.5" />
+                    <stop offset="1" stopColor="#004BE0" stopOpacity="0.5" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_50_493" x1="51" y1="0" x2="51" y2="315" gradientUnits="userSpaceOnUse">
-                    <stop stop-opacity="0" />
-                    <stop offset="1" stop-color="#006EFF" />
+                    <stop stopOpacity="0" />
+                    <stop offset="1" stopColor="#006EFF" />
                 </linearGradient>
                 <linearGradient id="paint5_linear_50_493" x1="51" y1="295" x2="51" y2="335" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" stop-opacity="0.5" />
-                    <stop offset="1" stop-color="#004BE0" stop-opacity="0.5" />
+                    <stop stopColor="white" stopOpacity="0.5" />
+                    <stop offset="1" stopColor="#004BE0" stopOpacity="0.5" />
                 </linearGradient>
                 <linearGradient id="paint6_linear_50_493" x1="216.5" y1="296" x2="216.5" y2="371.263" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#040102" stop-opacity="0" />
-                    <stop offset="1" stop-color="#004BE0" />
+                    <stop stopColor="#040102" stopOpacity="0" />
+                    <stop offset="1" stopColor="#004BE0" />
                 </linearGradient>
                 <linearGradient id="paint7_linear_50_493" x1="315.5" y1="207" x2="315.5" y2="282.263" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#040102" stop-opacity="0" />
-                    <stop offset="1" stop-color="#004BE0" />
+                    <stop stopColor="#040102" stopOpacity="0" />
+                    <stop offset="1" stopColor="#004BE0" />
                 </linearGradient>
                 <linearGradient id="paint8_linear_50_493" x1="81.5" y1="210" x2="81.5" y2="285.263" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#040102" />
-                    <stop offset="1" stop-color="#004BE0" />
+                    <stop stopColor="#040102" />
+                    <stop offset="1" stopColor="#004BE0" />
                 </linearGradient>
                 <linearGradient id="paint9_linear_50_493" x1="11.5" y1="170" x2="11.5" y2="245.263" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#040102" />
-                    <stop offset="1" stop-color="#004BE0" />
+                    <stop stopColor="#040102" />
+                    <stop offset="1" stopColor="#004BE0" />
                 </linearGradient>
                 <linearGradient id="paint10_linear_50_493" x1="114.5" y1="245" x2="114.5" y2="320.263" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#040102" stop-opacity="0" />
-                    <stop offset="1" stop-color="#004BE0" />
+                    <stop stopColor="#040102" stopOpacity="0" />
+                    <stop offset="1" stopColor="#004BE0" />
                 </linearGradient>
                 <clipPath id="clip0_50_493">
                     <rect x="131" y="341" width="60" height="60" rx="10" fill="white" />

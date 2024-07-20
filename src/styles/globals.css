@@ -2,55 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  height: 100vh;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* 
-R (0)
-G (110)
-B (255 */
-
 @layer base {
-  .dark {
-    --background: 216 100% 98.04%;
-    --foreground: 213.6 100% 4.9%;
-
-    --primary: 214.12 100% 50%;
-    --primary-foreground: 0 0% 100%;
-
-    --card: 216 100% 98.04%;
-    --card-foreground: 213.6 100% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 213.6 100% 4.9%;
-
-    --secondary: 214.74 100% 92.55%;
-    --secondary-foreground: 216 100% 0.98%;
-
-    --muted: 213.6 100% 95.1%;
-    --muted-foreground: 0 0% 40%;
-
-    --accent: 213.6 100% 95.1%;
-    --accent-foreground: 214.12 100% 50%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 0 0% 90.2%;
-    --input: 0 0% 90.2%;
-    --ring: 214.12 100% 50%;
-
-    --radius: 0.5rem;
-  }
-
   :root {
     /* Name: custom color palette
        Author: Ilias Ism
@@ -90,26 +42,47 @@ B (255 */
 
     --radius: 0.5rem;
   }
+
+  .dark {
+    --background: 216 100% 98.04%;
+    --foreground: 213.6 100% 4.9%;
+
+    --primary: 214.12 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --card: 216 100% 98.04%;
+    --card-foreground: 213.6 100% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 213.6 100% 4.9%;
+
+    --secondary: 214.74 100% 92.55%;
+    --secondary-foreground: 216 100% 0.98%;
+
+    --muted: 213.6 100% 95.1%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 213.6 100% 95.1%;
+    --accent-foreground: 214.12 100% 50%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 90.2%;
+    --input: 0 0% 90.2%;
+    --ring: 214.12 100% 50%;
+
+    --radius: 0.5rem;
+  }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
-.x {
-  color: hsl(220 65% 3.52%);
-  color: hsl(214.12 100% 50%);
-  color: rgb(0, 75, 224);
+::selection {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
   background-color: hsl(var(--background));
   border-radius: 8px;
   scrollbar-width: thin;
@@ -117,6 +90,8 @@ B (255 */
 
 ::-webkit-scrollbar-thumb {
   color: hsl(var(--primary));
+  background-color: hsl(var(--primary));
+  border-radius: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -131,17 +106,6 @@ B (255 */
 .use-automation-zoom-in {
   animation: automation-zoom-in 0.5s;
 }
-
-/* .glass-container::before {
-  content: "";
-  position: absolute;
-  inset: -7px;
-  z-index: -10;
-  border-radius: 12px;
-  background-color: rgba(226, 232, 240, .1);
-  border: 1px solid rgba(241, 245, 249, .2);
-  backdrop-filter: blur(12px);
-} */
 
 .card-mask {
   background: radial-gradient(ellipse at center, rgba(0, 75, 224, 0.15), transparent);

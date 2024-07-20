@@ -1,8 +1,10 @@
-import { Toaster } from "@/components/ui/sonner";
+import { Footer, Navbar } from "@/components";
 import { SITE_CONFIG } from "@/config";
 import { cn } from "@/lib/utils";
+import "@/styles/globals.css";
+import { ClerkProvider } from '@clerk/nextjs';
+import { dark } from '@clerk/themes';
 import { Inter } from "next/font/google";
-import "./globals.css";
 
 const font = Inter({ subsets: ["latin"] });
 
@@ -10,9 +12,9 @@ export const metadata = SITE_CONFIG;
 
 export default function RootLayout({
     children,
-}: Readonly<{
+}: {
     children: React.ReactNode;
-}>) {
+}) {
     return (
         <html lang="en" suppressHydrationWarning>
             <body
@@ -21,8 +23,9 @@ export default function RootLayout({
                     font.className
                 )}
             >
-                <Toaster />
-                {children}
+                <ClerkProvider appearance={{ baseTheme: dark }}>
+                    {children}
+                </ClerkProvider>
             </body>
         </html>
     );
