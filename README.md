@@ -4,12 +4,6 @@
 
 <img width="1280" alt="Astra Thumbnail" src="https://github.com/user-attachments/assets/8d11fc9c-8220-4d36-a0e3-271b73a7f23d">
 
-## Tech Stack
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
-![shadcn UI](https://img.shields.io/badge/shadcn%20UI-000000?style=flat&logo=figma&logoColor=white)  <!-- Adjust if a specific badge exists -->
-![Clerk](https://img.shields.io/badge/Clerk-000000?style=flat&logo=clerk&logoColor=white) <!-- Adjust if a specific badge exists -->
 
 ## Introduction
 
