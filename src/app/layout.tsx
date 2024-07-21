@@ -1,4 +1,3 @@
-import { Footer, Navbar } from "@/components";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import { ClerkProvider } from '@clerk/nextjs';
