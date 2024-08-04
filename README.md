@@ -11,7 +11,7 @@ Astra is a modern, fully responsive website built with a powerful tech stack. Th
 
 ## Watch Tutorial on YouTube
 
-Check out the preivew to see how this website was built: [Astra Website Tutorial](https://youtu.be/Bgm5j-Cid30?si=Gbo3a--37awWCAcD)
+Check out the preivew to see how this website was built: [Astra Website Tutorial](https://youtu.be/zSz67kLPbZY?si=mVBTTh23pv_roRHQ)
 
 ## Tech Stack
 
