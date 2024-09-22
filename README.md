@@ -62,5 +62,8 @@ Make sure that you have installed
 ## Assets
 Download all the assets required for this project [here](https://drive.google.com).
 
+## ☕ Buy Me a Coffee
+If you enjoy using caps.ai, consider supporting my work!  
+[Buy Me a Coffee ☕](https://buymeacoffee.com/shreyas29)
 
    
