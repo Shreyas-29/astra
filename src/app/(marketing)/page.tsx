@@ -223,7 +223,7 @@ const HomePage = () => {
                             Loved by thousands of AI enthusiasts
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Discover how Vishva is transforming the way people work with AI. Here&apos;s what our community is saying
+                            {"Discover how Vishva is transforming the way people work with AI. Here's what our community is saying"}
                         </p>
                     </div>
                 </Container>
