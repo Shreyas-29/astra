@@ -16,7 +16,7 @@ const Footer = () => {
                         <Icons.logo className="w-7 h-7" />
                     </div>
                     <p className="text-muted-foreground mt-4 text-sm text-start">
-                        Build beautiful, functional websites, without writing code
+                        Chat, generate images, code, and unlock everything AI can do
                     </p>
                     <span className="mt-4 text-neutral-200 text-sm flex items-center">
                         Made in India with
@@ -133,7 +133,7 @@ const Footer = () => {
 
             <div className="mt-8 border-t border-border/40 pt-4 md:pt-8 md:flex md:items-center md:justify-between w-full">
                 <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                    &copy; {new Date().getFullYear()} Astra AI INC. All rights reserved.
+                    &copy; {new Date().getFullYear()} Vishva AI INC. All rights reserved.
                 </p>
             </div>
 

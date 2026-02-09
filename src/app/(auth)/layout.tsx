@@ -6,8 +6,10 @@ interface Props {
 
 const AuthLayout = ({ children }: Props) => {
     return (
-        <div className="flex items-center justify-center h-screen">
-            {children}
+        <div className="min-h-screen bg-gradient-to-br from-background via-background to-background/80 flex items-center justify-center p-4">
+            <div className="w-full max-w-md">
+                {children}
+            </div>
         </div>
     )
 };

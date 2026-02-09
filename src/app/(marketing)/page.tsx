@@ -35,22 +35,22 @@ const HomePage = () => {
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5">
                                 <Image src="/icons/sparkles-dark.svg" alt="✨" width={24} height={24} className="w-4 h-4" />
-                                Introducing Astra AI
+                                Introducing Vishva AI
                                 <ChevronRight className="w-4 h-4" />
                             </span>
                         </button>
 
                         <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
                             <h1 className="text-4xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
-                                Build your next idea and ship your dream site
+                                Your All-in-One AI Companion
                             </h1>
                             <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
-                                Zero code, maximum speed. Make professional sites easy, fast and fun while delivering best-in-class SEO, performance.
+                                Chat, generate images, write code, and unlock everything AI can do. One platform for infinite possibilities.
                             </p>
                             <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                                 <Link href="#" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
-                                        ✨ {"  "} Start building your dream website now!
+                                        ✨ {"  "} Experience the future of AI now!
                                     </p>
                                     <Button size="sm" className="rounded-full hidden lg:flex border border-foreground/20">
                                         Get Started
@@ -83,12 +83,12 @@ const HomePage = () => {
             <Wrapper className="flex flex-col items-center justify-center py-12 relative">
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
-                        <SectionBadge title="The Process" />
+                        <SectionBadge title="Getting Started" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Three steps to build your dream website
+                            Three simple steps to unlock AI power
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Turn your vision into reality in just 3 simple steps
+                            Start using advanced AI capabilities in just 3 simple steps
                         </p>
                     </div>
                 </Container>
@@ -119,12 +119,12 @@ const HomePage = () => {
                 <div className="hidden md:block absolute bottom-0 -left-1/3 w-72 h-72 bg-indigo-600 rounded-full blur-[10rem] -z-10"></div>
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
-                        <SectionBadge title="Features" />
+                        <SectionBadge title="Capabilities" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Discover our powerful features
+                            Everything AI can do, in one place
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Astra offers a range of features to help you build a stunning website in no time
+                            From intelligent conversations to image generation and code writing, Vishva has it all
                         </p>
                     </div>
                 </Container>
@@ -161,10 +161,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="Pricing" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Unlock the right plan for your business
+                            Choose your perfect AI plan
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Choose the best plan for your business and start building your dream website today
+                            Select the ideal plan and unlock powerful AI features tailored to your needs
                         </p>
                     </div>
                 </Container>
@@ -218,12 +218,12 @@ const HomePage = () => {
                 <div className="hidden md:block absolute -top-1/4 -left-1/3 w-72 h-72 bg-indigo-500 rounded-full blur-[10rem] -z-10"></div>
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
-                        <SectionBadge title="Our Customers" />
+                        <SectionBadge title="Community" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            What people are saying
+                            Loved by thousands of AI enthusiasts
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            See how Astra empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
+                            {"Discover how Vishva is transforming the way people work with AI. Here's what our community is saying"}
                         </p>
                     </div>
                 </Container>
@@ -287,10 +287,10 @@ const HomePage = () => {
                     <LampContainer>
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
                             <h2 className="text-4xl lg:text-5xl xl:text-6xl lg:!leading-snug font-semibold mt-8">
-                                From Idea to Launch <br /> Faster Than Ever
+                                The Future of AI <br /> Is Here
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Build stunning websites with Astra&apos;s intuitive drag-and-drop builder and powerful AI assistant
+                                Experience chat, image generation, coding assistance, and everything AI can do with Vishva
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
