@@ -17,7 +17,7 @@ const SignUpPage = () => {
                 }}
             />
             <p className="text-center text-sm text-muted-foreground mt-4">
-                Already have an account?{" "}
+                {"Already have an account? "}
                 <Link href="/sign-in" className="text-foreground hover:underline font-medium">
                     Sign in
                 </Link>

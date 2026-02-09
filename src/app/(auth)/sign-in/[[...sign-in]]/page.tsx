@@ -17,7 +17,7 @@ const SignInPage = () => {
                 }}
             />
             <p className="text-center text-sm text-muted-foreground mt-4">
-                Don't have an account?{" "}
+                {"Don't have an account? "}
                 <Link href="/sign-up" className="text-foreground hover:underline font-medium">
                     Sign up
                 </Link>
